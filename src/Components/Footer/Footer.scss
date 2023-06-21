@@ -2,14 +2,11 @@ $bg-color:lightblue;
 $primary: red;
 $secondary: brown;
 
-.footer {
-  background-color: $bg-color;
-  color: $primary;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  .footer__link {
-    color: $secondary;
+footer {
+    border-top: 1px solid #eee;
+    padding: 1em 3em;
+    margin: 0;
+    background-color: $bg-color;
+    
   }
-}
+

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Form.scss';
 
 function Form(props){
