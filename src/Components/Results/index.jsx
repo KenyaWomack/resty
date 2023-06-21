@@ -1,4 +1,3 @@
-import React from 'react';
 import '../Results';
 
 function Results (props) {
