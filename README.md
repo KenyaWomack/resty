@@ -48,5 +48,6 @@ for now I have none and do not require one
 ## Collaborators
 
 Coriana Williams
+Ryan Gallaway
 
 ![RESTy UML](UML27.png)
