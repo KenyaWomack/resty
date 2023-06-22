@@ -53,3 +53,12 @@ Ryan Gallaway
 
 ![RESTy UML](UML27.png)
  main
+
+## Class 28 Component Lifecycle / useEffect() Hook
+
+## Collaborators
+
+Coriana Williams
+Ryan Gallaway
+
+![RESTy UML](UML28.png)
