@@ -67,8 +67,8 @@ async function fetchData(){
   return (
     <React.Fragment>
       <Header />
-      <div>Request Method: {requestParams.method}</div>
-      <div>URL: {requestParams.url}</div>
+      <div data-testid='app-div-method'>Request Method: {requestParams.method}</div>
+      <div data-testid='app-div-url'>URL: {requestParams.url}</div>
       <Form handleApiCall={callApi} />
       <Results data={data} />
       <Footer />
