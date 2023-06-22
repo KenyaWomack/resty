@@ -42,4 +42,3 @@ for now I have none and do not require one
 #### UML
 
 ![RESTy UML](UML26.png)
-![blog26](blog26.png)
