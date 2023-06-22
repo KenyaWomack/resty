@@ -16,16 +16,12 @@ import './Results.scss';
 import JSONPretty from 'react-json-pretty';
 const JSONPrettyTheme = require('react-json-pretty/themes/monikai.css');
 
-function Results({ data, loading }) {
+function Results(props) {
   return (
     <section>
-      {
-        loading ? <p>Loading...</p> :
-        <pre data-testid='results-pre'>
-      props.data && <JSONPretty id="json-pretty" theme ={JSONPrettyTheme} data={props.data}></JSONPretty>}
+      {props.data && <JSONPretty id="json-pretty" theme ={JSONPrettyTheme} data={props.data}></JSONPretty>}
     </section>
   );
-  </pre>
 }
 
 export default Results;
