@@ -42,3 +42,11 @@ for now I have none and do not require one
 #### UML
 
 ![RESTy UML](UML26.png)
+
+## Class 27 useState() Hook
+
+## Collaborators
+
+Coriana Williams
+
+![RESTy UML](UML27.png)
