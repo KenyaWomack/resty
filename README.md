@@ -54,12 +54,20 @@ Ryan Gallaway
 ![RESTy UML](UML27.png)
  main
 
+ reducer-hook
  ## Class 29 Advanced State with Reducers
+
+## Class 28 Component Lifecycle / useEffect() Hook
+ main
 
 ## Collaborators
 
 Coriana Williams
 Ryan Gallaway
 
+ reducer-hook
 ![RESTy UML](UML29.png)
+ main
+
+![RESTy UML](UML28.png)
  main

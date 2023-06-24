@@ -17,13 +17,14 @@ function Form(props) {
     <>
       <form onSubmit={handleSubmit}>
         <label>
-          <span data-testid="form-span">URL: </span>
-          <input
+          <span >URL: </span>
+          <input 
+            data-testid="form-input"
             name="url"
             type="text"
             onChange={(e) => setUrl(e.target.value)}
           />
-          <button type="submit">GO!</button>
+          <button data-testid='form-button' type="submit">GO!</button>
         </label>
         <label className="methods">
           <span
