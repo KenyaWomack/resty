@@ -3,26 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.4.0",
-    "msw": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-json-pretty": "^2.2.0",
     "react-scripts": "5.0.1",
-    "sass": "^1.63.4",
-    "uuid": "^9.0.0",
+    "sass": "^1.63.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
- reducer-hook
-    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/' --verbose --coverage",
+    "test": "react-scripts test --verbose --coverage",
     "eject": "react-scripts eject"
-
-    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/' --verbose --coverage",    "eject": "react-scripts eject"
- main
   },
   "eslintConfig": {
     "extends": [
@@ -42,18 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    }
-  },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.22.5",
-    "@babel/preset-react": "^7.22.5",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "axios-mock-adapter": "^1.21.5",
-    "msw": "^1.2.2"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
