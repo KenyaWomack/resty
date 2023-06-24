@@ -5,6 +5,7 @@
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
+    "msw": "^1.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-json-pretty": "^2.2.0",
@@ -16,7 +17,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+ reducer-hook
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/' --verbose --coverage",
+    "eject": "react-scripts eject"
+
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/' --verbose --coverage",    "eject": "react-scripts eject"
+ main
   },
   "eslintConfig": {
     "extends": [
