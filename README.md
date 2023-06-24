@@ -44,7 +44,7 @@ for now I have none and do not require one
 ![RESTy UML](UML26.png)
 base
 
-## Class 27 useState() Hook
+## Class 28 useState() Hook
 
 ## Collaborators
 
@@ -52,4 +52,14 @@ Coriana Williams
 Ryan Gallaway
 
 ![RESTy UML](UML27.png)
+ main
+
+ ## Class 29 Advanced State with Reducers
+
+## Collaborators
+
+Coriana Williams
+Ryan Gallaway
+
+![RESTy UML](UML29.png)
  main
